@@ -1,22 +1,13 @@
-import DummyClass from '../lib/index';
+import * as ThickerCLI from '../lib';
 import * as Chai from 'chai';
 
 const should = Chai.should();
 
-/**
- * Dummy test
- */
-describe('Dummy test', () => {
-    it('works if true is truthy', () => {
-        const truthyValue = true;
-        truthyValue.should.be.true;
-    });
-
-    it('DummyClass is instantiable', () => {
-        new DummyClass().should.be.an.instanceOf(DummyClass);
-    });
-
-    it('DummyClass untested method should return 42', () => {
-        new DummyClass().untestedMethod().should.equal(42);
+describe('Library#index', () => {
+    it('should export what\'s needed', () => {
+        should.exist(ThickerCLI.Files);
+        should.exist(ThickerCLI.Interface);
+        should.exist(ThickerCLI.Markdown);
     });
 });
+
