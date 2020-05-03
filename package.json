@@ -1,5 +1,5 @@
 {
-	"name": "@superpitch/core-thicker_cli",
+	"name": "thicker_cli",
 	"version": "1.0.0",
 	"description": "Typescript utils for cli",
 	"keywords": [],
