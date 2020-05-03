@@ -1,9 +1,9 @@
 {
 	"name": "@superpitch/core-thicker_cli",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "Typescript utils for cli",
 	"keywords": [],
-	"author": "Superpitch",
+	"author": "guihardbastien",
 	"license": "MIT",
 	"main": "dist/lib/index.js",
 	"module": "dist/lib/index.js",
